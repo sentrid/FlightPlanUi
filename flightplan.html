@@ -32,14 +32,18 @@
             </div>
         </div>
         <div class="col-3">
-            <button class="btn btn-primary btn-lg" style="height: 58px" type="button"
-                    onclick="edit_flight_plan()">Load Flight Plan</button>
+
+            <!-- TODO: Alter this tag to call the javascript function that will load a flight plan -->
+            <button class="btn btn-primary btn-lg" style="height: 58px" type="button">Load Flight Plan</button>
         </div>
         <div class="col-4">
+
+            <!-- TODO: Alter this tag to call the javascript function that will update a flight plan -->
             <button class="btn btn-primary btn-lg" id="updateButton" style="height: 58px" type="button"
-                    onclick="update_flight_plan()" hidden>Update Flight Plan</button>
-            <button class="btn btn-primary btn-lg" id="fileButton" style="height: 58px" type="button"
-                    onclick="file_flight_plan()">File Flight Plan</button>
+                    hidden>Update Flight Plan</button>
+
+            <!-- TODO: Alter this tag to call the javascript function that will file a flight plan -->
+            <button class="btn btn-primary btn-lg" id="fileButton" style="height: 58px" type="button">File Flight Plan</button>
         </div>
     </div>
 
@@ -190,19 +194,12 @@
                                     <label for="route">Route</label>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <button class="btn btn-primary" type="button" onclick="resolve_flight_plan()"
-                                            hidden>Get Route
-                                    </button>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="row mb-3">
             <div class="col-12">
                 <div class="container" style="height: 100%">
